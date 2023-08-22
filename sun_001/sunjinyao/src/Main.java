@@ -5,7 +5,9 @@ public class Main {
 
         Person person = new Person();
         person.name = "xiaoming";
-        System.out.print(person.name);
+        System.out.println(person.name);
+
+        System.out.print(person.test(100));
 
     }
 }
